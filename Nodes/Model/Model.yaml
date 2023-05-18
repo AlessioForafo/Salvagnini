@@ -1,2 +1,98 @@
 Name: Model
 Type: ModelCategoryFolder
+Children:
+- Name: Variable1
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Motore
+  Id: g=8c16780ddd3e489ca8a5e16c3eb7123d
+  Supertype: BaseObjectType
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: Enable
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+- Name: Motore1
+  Type: Motore
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 10
+  - Name: Name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "test"
+  - Name: Enable
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+- Name: Motore2
+  Type: Motore
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 50
+  - Name: Name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "jjjj"
+  - Name: Enable
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+- Name: Motore3
+  Type: Motore
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 66
+  - Name: Name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "htsrhrah"
+  - Name: Enable
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+- Name: Motore4
+  Type: Motore
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: Enable
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+- Name: Motore5
+  Type: Motore
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: Enable
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
